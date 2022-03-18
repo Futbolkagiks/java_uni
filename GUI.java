@@ -89,7 +89,7 @@ public class GUI implements ActionListener {
          newpanel.add(button3);
          newframe.setVisible(true);
       }
-      else if(user.equals("Admin") && password.equals("Admin") && selectedType.equals("Promoter")){
+      else if(user.equals("Admin") && password.equals("Admin") && selectedType.equals("Provider")){
          JPanel newpanel = new JPanel();
          JFrame newframe = new JFrame();
          newframe.setSize(350,200);
@@ -97,7 +97,7 @@ public class GUI implements ActionListener {
          newframe.add(newpanel);
          newpanel.setLayout(null);
          JLabel newlabel = new JLabel();
-         newlabel = new JLabel("Promoter Menu");
+         newlabel = new JLabel("Provider Menu");
          newlabel.setBounds(50, 20, 80, 25);
          newpanel.add(newlabel);
          JButton button1 = new JButton("button");
