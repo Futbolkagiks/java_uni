@@ -14,7 +14,7 @@ public class GUI implements ActionListener {
    public static void main (String[] args){
       JPanel panel = new JPanel();
       JFrame frame = new JFrame();
-      frame.setSize(350,200);
+      frame.setSize(350,300);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.add(panel);
       panel.setLayout(null);
@@ -71,22 +71,23 @@ public class GUI implements ActionListener {
          newpanel.setLayout(null);
          JLabel newlabel = new JLabel();
          newlabel = new JLabel("Salesman Menu");
-         newlabel.setBounds(50, 20, 80, 25);
+         newlabel.setBounds(50, 20, 100, 25);
          newpanel.add(newlabel);
          JButton button1 = new JButton("button");
          button1 = new JButton();
-         button1.setBounds(50, 50, 80, 25);
+         button1.setBounds(50, 50, 100, 25);
          newpanel.add(button1);
          
          JButton button2 = new JButton("button");
          button2 = new JButton();
-         button2.setBounds(50, 80, 80, 25);
+         button2.setBounds(50, 80, 100, 25);
          newpanel.add(button2);
 
          JButton button3 = new JButton("button");
          button3 = new JButton();
-         button3.setBounds(50, 110, 80, 25);
+         button3.setBounds(50, 110, 100, 25);
          newpanel.add(button3);
+         newframe.setLocationRelativeTo(null);
          newframe.setVisible(true);
       }
       else if(user.equals("Admin") && password.equals("Admin") && selectedType.equals("Provider")){
@@ -98,22 +99,23 @@ public class GUI implements ActionListener {
          newpanel.setLayout(null);
          JLabel newlabel = new JLabel();
          newlabel = new JLabel("Provider Menu");
-         newlabel.setBounds(50, 20, 80, 25);
+         newlabel.setBounds(50, 20, 100, 25);
          newpanel.add(newlabel);
          JButton button1 = new JButton("button");
          button1 = new JButton();
-         button1.setBounds(50, 50, 80, 25);
+         button1.setBounds(50, 50, 100, 25);
          newpanel.add(button1);
          
          JButton button2 = new JButton("button");
          button2 = new JButton();
-         button2.setBounds(50, 80, 80, 25);
+         button2.setBounds(50, 80, 100, 25);
          newpanel.add(button2);
 
          JButton button3 = new JButton("button");
          button3 = new JButton();
-         button3.setBounds(50, 110, 80, 25);
+         button3.setBounds(50, 110, 100, 25);
          newpanel.add(button3);
+         newframe.setLocationRelativeTo(null);
          newframe.setVisible(true);
       }
       else if(user.equals("Admin") && password.equals("Admin") && selectedType.equals("Delivery")){
@@ -125,22 +127,23 @@ public class GUI implements ActionListener {
          newpanel.setLayout(null);
          JLabel newlabel = new JLabel();
          newlabel = new JLabel("Delivery Menu");
-         newlabel.setBounds(50, 20, 80, 25);
+         newlabel.setBounds(50, 20, 100, 25);
          newpanel.add(newlabel);
          JButton button1 = new JButton("button");
          button1 = new JButton();
-         button1.setBounds(50, 50, 80, 25);
+         button1.setBounds(50, 50, 100, 25);
          newpanel.add(button1);
          
          JButton button2 = new JButton("button");
          button2 = new JButton();
-         button2.setBounds(50, 80, 80, 25);
+         button2.setBounds(50, 80, 100, 25);
          newpanel.add(button2);
 
          JButton button3 = new JButton("button");
          button3 = new JButton();
-         button3.setBounds(50, 110, 80, 25);
+         button3.setBounds(50, 110, 100, 25);
          newpanel.add(button3);
+         newframe.setLocationRelativeTo(null);
          newframe.setVisible(true);
       }
       else{
